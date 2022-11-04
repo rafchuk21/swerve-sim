@@ -30,8 +30,8 @@ loop_dt[goal] = physics_dt
 loop_dt[first_order] = .05
 loop_dt[second_order] = .05
 
-vel = np.array([1,0,2])
-accel = np.array([0.2,0,0.5])
+vel = np.array([1,0,1])
+accel = np.array([0,0,0])
 
 fig, axes = plt.subplots()
 
